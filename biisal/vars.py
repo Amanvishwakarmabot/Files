@@ -12,10 +12,10 @@ bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', ''))
-    API_HASH = str(getenv('API_HASH', ''))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    API_ID = int(getenv('API_ID', '24004349'))
+    API_HASH = str(getenv('API_HASH', '5aabfb11c262b17d568d828a3100f296'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '6366130177:AAF9koIXTw53Ow7zpe1zPKW9MVNrcV2Gogk'))
+    name = str(getenv('name', 'YD_FILES_TO_LINKS_BOT'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', ''))
@@ -26,7 +26,7 @@ class Var(object):
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "5397984467").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'biisal'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'BOT_OWNER26'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
